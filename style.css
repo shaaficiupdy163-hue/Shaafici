@@ -1,0 +1,103 @@
+/* style.css file */
+
+/* ------------------ Aasaaska Guud ------------------ */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* ------------------ Light Mode (Muuqaalka Caddaan) ------------------ */
+.light-mode {
+    background-color: #ffffff; /* Caddaan */
+    color: #1a1a1a;
+}
+.light-mode #tiktok-link {
+    background-color: #f0f0f0; /* Midab yar oo cawlan */
+    color: #1a1a1a;
+    border: 2px solid #5a74a8; /* Gariir buluug ah (sida sawirka) */
+}
+.light-mode #tiktok-link::placeholder {
+    color: #777777;
+}
+
+/* ------------------ Qaybaha Kale ee CSS ------------------ */
+.header {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    /* Waxaad ku dari kartaa line hoose, haddii aad rabto: border-bottom: 1px solid #ccc; */
+}
+
+.close-btn {
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+}
+
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.input-group {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#tiktok-link {
+    width: 100%;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 16px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+#download-btn {
+    width: 100%;
+    max-width: 350px;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    background-color: #3b82f6; /* Midab buluug ah */
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#download-btn:hover {
+    background-color: #2563eb;
+}
